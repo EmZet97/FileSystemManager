@@ -23,9 +23,10 @@ namespace FileSystemManager
 
         public INode GetParent() => parent;
 
-        public void SetName(string name)
+        public bool SetName(string name)
         {
             this.name = name;
+            return true;
         }
 
         public void SetParent(INode parent)

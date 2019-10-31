@@ -9,6 +9,8 @@ namespace FileSystemManager
     class NameProxy : INode
     {
         private INode node;
+        private File.FileType type;
+
         public NameProxy(File.FileType node_type)
         {
             switch (node_type){
@@ -19,7 +21,13 @@ namespace FileSystemManager
                         case File.FileType.Directory:
                             node = new File();
                             break;
-                    }            
+                    }
+            type = node_type;
+        }
+
+        public File.FileType GetNodeType()
+        {
+            return type;
         }
         public string GetName()
         {
@@ -31,17 +39,19 @@ namespace FileSystemManager
             return node.GetParent();
         }
 
-        public void SetName(string name)
+        public bool SetName(string name)
         {
-            if (name.Length > 4 && name.Length < 12)
+            if (name.Length > 0)
             {
-                bool match = name.IndexOfAny(new char[] { '*', '&', '#', '/', '\\', '|' }) != -1;
+                bool match = name.IndexOfAny(new char[] { '*', '&', '#', '/', '\\', '|', '=', '+', '?', '!', '^', '-' }) != -1;
                 if (!match)
                 {
                     //If new name is correct
                     node.SetName(name);
+                    return true;
                 }
             }
+            return false;
         }
 
         public void SetParent(INode parent)

@@ -8,7 +8,7 @@ namespace FileSystemManager
 {
     interface INode
     {
-        void SetName(string name);        
+        bool SetName(string name);        
         string GetName();
 
         //Set reference to parent node

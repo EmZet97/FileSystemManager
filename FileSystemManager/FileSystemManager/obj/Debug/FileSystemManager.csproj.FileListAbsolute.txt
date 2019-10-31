@@ -1,0 +1,10 @@
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\bin\Debug\FileSystemManager.exe.config
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\bin\Debug\FileSystemManager.exe
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\bin\Debug\FileSystemManager.pdb
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.csprojAssemblyReference.cache
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.Form1.resources
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.Properties.Resources.resources
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.csproj.GenerateResource.cache
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.csproj.CoreCompileInputs.cache
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.exe
+D:\GitHub\FileSystemManager\FileSystemManager\FileSystemManager\FileSystemManager\obj\Debug\FileSystemManager.pdb
