@@ -27,9 +27,9 @@ namespace FileSystemManager
                 child_nodes.RemoveAt(index);
         }
 
-        public void MoveNode(INode from_node, INode to_node)
+        public void MoveNode(INode node, INode to_node)
         {
-            
+            node.SetParent(to_node);
         }
     }
 }

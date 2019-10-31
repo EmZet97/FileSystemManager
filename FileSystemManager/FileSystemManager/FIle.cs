@@ -20,5 +20,10 @@ namespace FileSystemManager
             this.content = content;
         }
 
+        public enum FileType
+        {
+            File, Directory
+        }
+
     }
 }

@@ -11,16 +11,21 @@ namespace FileSystemManager
         private INode parent;
         private string name;
 
+        public Node()
+        {
+            name = "Default name";
+        }
+
         public string GetName()
         {
-            throw new NotImplementedException();
+            return this.name;
         }
 
         public INode GetParent() => parent;
 
         public void SetName(string name)
         {
-            throw new NotImplementedException();
+            this.name = name;
         }
 
         public void SetParent(INode parent)

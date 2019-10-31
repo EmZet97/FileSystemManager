@@ -16,5 +16,10 @@ namespace FileSystemManager
         {
             InitializeComponent();
         }
+
+        private void AddFileButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
